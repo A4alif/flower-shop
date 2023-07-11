@@ -16,6 +16,9 @@ body {
   margin: 0 auto;
   padding: 0 1rem;
 }
+.secondary-color{
+    color: #E55473;
+}
 .section {
   margin-top: 11rem;
   margin-bottom: 10rem;
@@ -126,8 +129,8 @@ body {
   margin: 1rem 0;
 }
 /* basic info */
-.basic-info-section{
-    margin-bottom: 6rem;
+.basic-info-section {
+  margin-bottom: 6rem;
 }
 .basic-info {
   max-height: 20rem;
@@ -137,21 +140,62 @@ body {
   justify-content: space-around;
   padding: 5rem 6rem;
 }
-.basic-info-card{
-    text-align: center;
+.basic-info-card {
+  text-align: center;
 }
 .basic-info-card .card-img {
-    width: 88px;
-    height: 88px;
-    margin: 0 auto;
+  width: 88px;
+  height: 88px;
+  margin: 0 auto;
 }
 .basic-info-card .card-img > img {
+  width: 100%;
+  height: 100%;
+}
+.basic-info-card .card-text {
+  font-size: 16px;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #272727cc;
+}
+
+/* deal */
+.deal-section {
+  width: 100%;
+  max-height: 38rem;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  margin-bottom: 6rem;
+}
+.deal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6rem 0;
+}
+.deal-content{
+    max-width:38rem;
+    text-align: center;
+}
+.deal-heading{
+    font-size: 2.5rem;
+    color: #272727;
+    margin-bottom: 24px;
+}
+.deal-desc{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 24px;
+    font-weight: normal;
+}
+
+.deal-img{
+    max-width: 20rem;
+    max-height: 26rem;
+}
+.deal-img > img {
     width: 100%;
     height: 100%;
-}
-.basic-info-card .card-text{
-    font-size:16px;
-    margin-top: 10px;
-    font-weight: 600;
-    color: #272727CC;
+    object-fit: cover;
 }
