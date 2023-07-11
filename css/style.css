@@ -102,11 +102,11 @@ body {
   padding-right: 2rem;
   margin: 3rem 0;
 }
-.flower-card.red-rose{
-    background: rgba(5, 151, 160, 0.15);
+.flower-card.red-rose {
+  background: rgba(5, 151, 160, 0.15);
 }
-.flower-card.yellow{
-    background: rgba(71, 125, 17, 0.15);
+.flower-card.yellow {
+  background: rgba(71, 125, 17, 0.15);
 }
 .flower-img {
   max-width: 19rem;
@@ -124,4 +124,34 @@ body {
   color: #272727;
   font-size: 1.2rem;
   margin: 1rem 0;
+}
+/* basic info */
+.basic-info-section{
+    margin-bottom: 6rem;
+}
+.basic-info {
+  max-height: 20rem;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: space-around;
+  padding: 5rem 6rem;
+}
+.basic-info-card{
+    text-align: center;
+}
+.basic-info-card .card-img {
+    width: 88px;
+    height: 88px;
+    margin: 0 auto;
+}
+.basic-info-card .card-img > img {
+    width: 100%;
+    height: 100%;
+}
+.basic-info-card .card-text{
+    font-size:16px;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #272727CC;
 }
