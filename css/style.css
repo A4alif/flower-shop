@@ -16,8 +16,8 @@ body {
   margin: 0 auto;
   padding: 0 1rem;
 }
-.secondary-color{
-    color: #E55473;
+.secondary-color {
+  color: #e55473;
 }
 .section {
   margin-top: 11rem;
@@ -167,34 +167,66 @@ body {
   background: rgba(229, 84, 115, 0.05);
   margin-bottom: 6rem;
 }
-.deal{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 6rem 0;
+.deal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 6rem 0;
 }
-.deal-content{
-    max-width:38rem;
-    text-align: center;
+.deal-content {
+  max-width: 38rem;
+  text-align: center;
 }
-.deal-heading{
-    font-size: 2.5rem;
-    color: #272727;
-    margin-bottom: 24px;
+.deal-heading {
+  font-size: 2.5rem;
+  color: #272727;
+  margin-bottom: 24px;
 }
-.deal-desc{
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 1rem;
-    text-align: center;
-    margin-bottom: 24px;
-    font-weight: normal;
+.deal-desc {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 24px;
+  font-weight: normal;
 }
 
-.deal-img{
-    max-width: 20rem;
-    max-height: 26rem;
+.deal-img {
+  max-width: 20rem;
+  max-height: 26rem;
 }
 .deal-img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* instagram section */
+.instagram-content {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.instagram-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #272727;
+  margin-bottom: 24px;
+}
+.instagram-image{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.instagram-desc {
+  max-width: 37rem;
+  margin: 0 auto;
+  color: rgba(39, 39, 39, 0.6);
+  line-height: 1.9rem;
+}
+.instagram-card{
+    width: 21.3rem;
+    height: 24.7rem;
+}
+.instagram-card .card-img > img {
     width: 100%;
     height: 100%;
     object-fit: cover;
